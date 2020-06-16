@@ -1,0 +1,18 @@
+.item {
+  color: whitesmoke;
+  display: flex;
+}
+.item_post {
+  padding: 20px 0 5px 5px;
+}
+.item_span {
+  padding: 10px;
+}
+.item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.item span {
+  font-size: 18px;
+}

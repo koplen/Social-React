@@ -1,0 +1,37 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    color:th
+}
+
+.dialogsItems  {
+    padding: 10px;
+}
+.dialogsItems .active {
+    color: red;
+}
+.dialog {
+
+}
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+
+}
+.dialogs_button button {
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 10px  ;
+    border: 1px #333 solid;
+
+    background-color: #606060;
+    color: #fff;
+}
+.dialogs_button button:hover {
+    cursor: pointer;
+    background-color: #cbcbcb;
+    color: #000;
+    transition: background-color, color  .5s linear;
+}

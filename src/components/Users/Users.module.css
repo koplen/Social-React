@@ -1,0 +1,58 @@
+.content_list {
+    padding: 20px 20px 0 25px ;
+}
+
+
+.userPhoto{
+    width: 200px;
+    height: auto;
+    border:2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+span {
+    margin: 10px;
+    font-size: 25px;
+}
+span:hover {
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+.content_block {
+    margin: 30px;
+}
+.content_flex {
+    display: flex;
+}
+.follow_button {
+    text-align: center;
+}
+.follow_button button {
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 10px  ;
+    border: 1px #333 solid;
+
+    background-color: #606060;
+    color: #fff;
+}
+.follow_button button:hover {
+    cursor: pointer;
+    background-color: #cbcbcb;
+    color: #000;
+    transition: background-color, color  .5s linear;
+}
+
+
+.content_user_name {
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 30px;
+}
+.content_location {
+    font-size: 20px;
+    text-align: center;
+}
